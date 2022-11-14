@@ -1,0 +1,15 @@
+/home/friland/Projects/cs_test/bin/Debug/net6.0/cs_test
+/home/friland/Projects/cs_test/bin/Debug/net6.0/cs_test.deps.json
+/home/friland/Projects/cs_test/bin/Debug/net6.0/cs_test.runtimeconfig.json
+/home/friland/Projects/cs_test/bin/Debug/net6.0/cs_test.dll
+/home/friland/Projects/cs_test/bin/Debug/net6.0/cs_test.pdb
+/home/friland/Projects/cs_test/obj/Debug/net6.0/cs_test.csproj.AssemblyReference.cache
+/home/friland/Projects/cs_test/obj/Debug/net6.0/cs_test.GeneratedMSBuildEditorConfig.editorconfig
+/home/friland/Projects/cs_test/obj/Debug/net6.0/cs_test.AssemblyInfoInputs.cache
+/home/friland/Projects/cs_test/obj/Debug/net6.0/cs_test.AssemblyInfo.cs
+/home/friland/Projects/cs_test/obj/Debug/net6.0/cs_test.csproj.CoreCompileInputs.cache
+/home/friland/Projects/cs_test/obj/Debug/net6.0/cs_test.dll
+/home/friland/Projects/cs_test/obj/Debug/net6.0/refint/cs_test.dll
+/home/friland/Projects/cs_test/obj/Debug/net6.0/cs_test.pdb
+/home/friland/Projects/cs_test/obj/Debug/net6.0/cs_test.genruntimeconfig.cache
+/home/friland/Projects/cs_test/obj/Debug/net6.0/ref/cs_test.dll

@@ -1,0 +1,15 @@
+/home/friland/Projects/calculator_compiler/bin/Debug/net6.0/calculator_compiler
+/home/friland/Projects/calculator_compiler/bin/Debug/net6.0/calculator_compiler.deps.json
+/home/friland/Projects/calculator_compiler/bin/Debug/net6.0/calculator_compiler.runtimeconfig.json
+/home/friland/Projects/calculator_compiler/bin/Debug/net6.0/calculator_compiler.dll
+/home/friland/Projects/calculator_compiler/bin/Debug/net6.0/calculator_compiler.pdb
+/home/friland/Projects/calculator_compiler/obj/Debug/net6.0/calculator_compiler.csproj.AssemblyReference.cache
+/home/friland/Projects/calculator_compiler/obj/Debug/net6.0/calculator_compiler.GeneratedMSBuildEditorConfig.editorconfig
+/home/friland/Projects/calculator_compiler/obj/Debug/net6.0/calculator_compiler.AssemblyInfoInputs.cache
+/home/friland/Projects/calculator_compiler/obj/Debug/net6.0/calculator_compiler.AssemblyInfo.cs
+/home/friland/Projects/calculator_compiler/obj/Debug/net6.0/calculator_compiler.csproj.CoreCompileInputs.cache
+/home/friland/Projects/calculator_compiler/obj/Debug/net6.0/calculator_compiler.dll
+/home/friland/Projects/calculator_compiler/obj/Debug/net6.0/refint/calculator_compiler.dll
+/home/friland/Projects/calculator_compiler/obj/Debug/net6.0/calculator_compiler.pdb
+/home/friland/Projects/calculator_compiler/obj/Debug/net6.0/calculator_compiler.genruntimeconfig.cache
+/home/friland/Projects/calculator_compiler/obj/Debug/net6.0/ref/calculator_compiler.dll
