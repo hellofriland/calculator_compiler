@@ -9,22 +9,22 @@ namespace calculator_compiler {
         private int lexicalListPos = 0;
         private Common.Token currentToken;
 
-        private string[] _idPool = { "id1", "id2", "id3", "id4", "id5", "id6", "id7", "id8" };
-        private int _idPoolPos = 0;
+        private string[] idPool = { "id1", "id2", "id3", "id4", "id5", "id6", "id7", "id8" };
+        private int idPoolPos = 0;
 
         private string GetId() {
-            if (_idPoolPos >= _idPool.Length) {
+            if (idPoolPos >= idPool.Length) {
                 Console.WriteLine("IdPool is exhausted");
             }
 
-            string id = _idPool[_idPoolPos];
-            _idPoolPos++;
+            string id = idPool[idPoolPos];
+            idPoolPos++;
             return id;
         }
 
         private void ReleaseId(string id) {
-            if (_idPoolPos > 0) {
-                _idPoolPos--;
+            if (idPoolPos > 0) {
+                idPoolPos--;
             }
         }
 
