@@ -7,7 +7,6 @@ namespace calculator_compiler {
             int sub_index = 0;
 
             for (int i = 0; i < text.Length;) {
-                i = 0;
                 sub_text = text.Substring(0, 1);
 
                 switch (sub_text) {
@@ -41,6 +40,6 @@ namespace calculator_compiler {
             } // for
             lexicalList.Add("Eoi,Eoi");
             return lexicalList;
-        } // AnalysisText(string text)
-    } // class LexicalAnalysis
+        } // GenerateLexicalList(string text)
+    } // class LexicalParser
 } // namespace calculator_compiler

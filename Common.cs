@@ -1,5 +1,5 @@
 namespace calculator_compiler {
-    struct CLILineElem {
+    struct CilLineElem {
         public string Ln;
         public string Op;
         public string Rn;

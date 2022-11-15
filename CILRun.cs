@@ -2,16 +2,16 @@ namespace calculator_compiler {
     public partial class CIL {
         private List<IdValueMap> IdValueDatabase = new List<IdValueMap>();
 
-        public double RunCIL(List<string> cliList) {
-            for (int i = 0; i < cliList.Count; i++) {
-                RunALine(cliList[i]);
+        public double RunCIL(List<string> cilList) {
+            for (int i = 0; i < cilList.Count; i++) {
+                RunALine(cilList[i]);
             }
 
             return GetIdValue("id1");
         }
 
         private void RunALine(string line) {
-            CLILineElem lineElem = SplitLine(line);
+            CilLineElem lineElem = SplitLine(line);
 
             switch (lineElem.Op) {
                 case "=": {
@@ -49,14 +49,14 @@ namespace calculator_compiler {
                     break;
                 }
                 default: {
-                    Console.WriteLine($"UnKnowSymbol: {lineElem.Op} in CLI");
+                    Console.WriteLine($"UnKnowSymbol: {lineElem.Op} in CIL");
                     break;
                 }
             }
         }
 
-        private CLILineElem SplitLine(string line) {
-            CLILineElem lineElem = new CLILineElem();
+        private CilLineElem SplitLine(string line) {
+            CilLineElem lineElem = new CilLineElem();
             int sub_line_index = 0;
 
 

@@ -3,7 +3,7 @@ namespace calculator_compiler {
     /// Common Intermediate Language
     /// </summary>
     public partial class CIL {
-        private List<string> cliList = new List<string>();
+        private List<string> cilList = new List<string>();
 
         private List<Common.Token> lexicalList = new List<Common.Token>();
         private int lexicalListPos = 0;
@@ -33,7 +33,7 @@ namespace calculator_compiler {
             NextToken();
             MyStatements();
 
-            return cliList;
+            return cilList;
         }
 
         private void ConvertToToken(List<string> lexicalText) {
@@ -68,7 +68,7 @@ namespace calculator_compiler {
                     NextToken();
                     id = GetId();
                     MyTerm(id);
-                    cliList.Add($"{tempId}+={id}");
+                    cilList.Add($"{tempId}+={id}");
                     ReleaseId(id);
                 }
 
@@ -76,7 +76,7 @@ namespace calculator_compiler {
                     NextToken();
                     id = GetId();
                     MyTerm(id);
-                    cliList.Add($"{tempId}-={id}");
+                    cilList.Add($"{tempId}-={id}");
                     ReleaseId(id);
                 }
             }
@@ -91,7 +91,7 @@ namespace calculator_compiler {
                     NextToken();
                     id = GetId();
                     MyFactor(id);
-                    cliList.Add($"{tempId}*={id}");
+                    cilList.Add($"{tempId}*={id}");
                     ReleaseId(id);
                 }
 
@@ -99,7 +99,7 @@ namespace calculator_compiler {
                     NextToken();
                     id = GetId();
                     MyFactor(id);
-                    cliList.Add($"{tempId}/={id}");
+                    cilList.Add($"{tempId}/={id}");
                     ReleaseId(id);
                 }
             }
@@ -107,7 +107,7 @@ namespace calculator_compiler {
 
         private void MyFactor(string tempId) {
             if (currentToken.Type == "Num") {
-                cliList.Add($"{tempId}={currentToken.Value}");
+                cilList.Add($"{tempId}={currentToken.Value}");
                 NextToken();
             }
             else if (currentToken.Type == "Separator") {
